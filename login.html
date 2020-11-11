@@ -28,15 +28,16 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!---Search Bar Start-->
             <form class="from-inline px-lg-5" novalidate method="get">
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" name="btnCategory" type="button" id="btnCategorydropDownMenu" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+                            <button class="btn btn-secondary dropdown-toggle" name="btnCategory" type="button"
+                                id="btnCategorydropDownMenu" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
                                 All
                             </button>
                             <div class="dropdown-menu" aria-labelledby="btnCategorydropDownMenu">
@@ -47,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                    <input  type="text" name="query" id="query" size="50" class="form-control">
+                    <input type="text" name="query" id="query" size="50" class="form-control">
                     <input type="text" name="category" id="category" value="book" hidden>
                     <div class="input-group-append">
                         <button type="submit" class="btn btn-warning"><i class="fas fa-search"></i></button>
@@ -58,38 +59,42 @@
             <ul class="navbar-nav">
                 <!---Prefered Language Start-->
                 <li class="nav-item dropdown px-2">
-                    <a class="nav-link dropdown-toggle" href="#" id="prefLanguageDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="prefLanguageDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-2x fa-language"></i>
                     </a>
                     <div class="dropdown-divider"></div>
                     <div class="dropdown-menu" aria-labelledby="prefLanguageDropdown">
                         <form class="p-3">
-                        <div class="form-check mb-2">
-                            <input class="form-check-input" type="radio" name="prefLang" id="engLang" value="english" checked>
-                            <label class="form-check-label" for="engLang">
-                                <img src="img/uk.png" height="30" width="50" alt="uk">
-                            </label>
-                        </div>
-                        <div class="dropdown-divider"></div>
-                        <div class="form-check  mb-2">
-                            <input class="form-check-input" type="radio" name="prefLang" id="hindiLang" value="hindi" checked>
-                            <label class="form-check-label" for="hindiLang">
-                                <img src="img/india.webp" height="30" width="50" margin-top="10px" alt="india">
-                            </label>
-                        </div>
-                        <div class="dropdown-divider"></div>
-                        <div class="form-check  mb-2">
-                            <input class="form-check-input" type="radio" name="prefLang" id="urduLang" value="urdu" checked>
-                            <label class="form-check-label" for="urduLang">
-                                <img src="img/pak.jpg" height="30" width="50" margin-top="10px" alt="pak">
-                            </label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="prefLang" id="engLang"
+                                    value="english" checked>
+                                <label class="form-check-label" for="engLang">
+                                    <img src="img/uk.png" height="30" width="50" alt="uk">
+                                </label>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="form-check  mb-2">
+                                <input class="form-check-input" type="radio" name="prefLang" id="hindiLang"
+                                    value="hindi" checked>
+                                <label class="form-check-label" for="hindiLang">
+                                    <img src="img/india.webp" height="30" width="50" margin-top="10px" alt="india">
+                                </label>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="form-check  mb-2">
+                                <input class="form-check-input" type="radio" name="prefLang" id="urduLang" value="urdu"
+                                    checked>
+                                <label class="form-check-label" for="urduLang">
+                                    <img src="img/pak.jpg" height="30" width="50" margin-top="10px" alt="pak">
+                                </label>
                             </div>
                             <div class="dropdown-divider"></div>
                             <div class="form-check ">
-                                <input class="form-check-input" type="radio" name="prefLang" id="banglaLang" value="bangla" checked>
+                                <input class="form-check-input" type="radio" name="prefLang" id="banglaLang"
+                                    value="bangla" checked>
                                 <label class="form-check-label" for="banglaLang">
-                                <img src="img/bangla.png" height="30" width="50" margin-top="10px" alt="bangla">
+                                    <img src="img/bangla.png" height="30" width="50" margin-top="10px" alt="bangla">
                                 </label>
                             </div>
                             <div class="dropdown-divider">
@@ -98,10 +103,11 @@
                     </div>
                 </li>
                 <!---Prefered Language End-->
+
                 <!----User Account Start-->
                 <li class="nav-item dropdown px-2">
-                    <a class="nav-link dropdown-toggle" href="login.html" id="userAccount" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="login.html" id="userAccount" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-2x  fa-user-circle"></i>
                     </a>
                     <div class="dropdown-divider"></div>
@@ -126,7 +132,37 @@
     </nav>
     <!---NavBar Ends-->
     <!-- Optional JavaScript; choose one of the two! -->
-
+    <!----Login Form Start-->
+    <div class="container mb-5">
+        <!---Card Start-->
+        <div class="card mx-auto pb-3 mt-5 shadow rounded" style="width: 25rem;">
+            <div class="card-body">
+                <h3 class="card-title font-weight-bold">Login</h3>
+                <!---Login Form Card Start-->
+                <form novalidate>
+                    <div class="form-group">
+                        <label for="userEmail">Email:</label>
+                        <input type="email" name="email" class="form-control" placeholder="abc@gmail.com" id="userEmail" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="userPassword">Password:</label>
+                        <input type="password" class="form-control" placeholder="*****" name="password" id="userPassword" aria-describedby="passwordHelp">
+                        <small id="passwordHelp" class="form-text text-muted">Password Must be at least Character</small>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100 shadow btn-sm rounded">Signin</button>
+                </form>
+                <!---Login Form Card End-->
+                <!---Or Sepaarator-->
+                <hr class="hr-text" data-content="New To Amazon?">
+                <!---Create Account Button-->
+                <a href="register.html" class="btn btn-sm btn-dark w-100 mt-2">Create Your Amazon Account</a>
+                <a href="#" class="btn btn-outline-success mt-2 w-100 btn-sm"><i class="fab fa-2x fa-google mr-2"></i>Sign in With Google</a>
+                <a href="#" class="btn btn-outline-primary mt-2 w-100 btn-sm"><i class="fab fa-2x fa-facebook-square mr-2"></i>Sign in With Facebook</a>
+            </div>
+        </div>
+    </div>
+    <!---Card End-->
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
