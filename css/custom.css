@@ -25,3 +25,6 @@ hr.hr-text::before{
     .breadcrumb-item + .breadcrumb-item::before {
         content: ">";
     }
+.btn-rating:hover{
+    color:#ffa41c;
+}
